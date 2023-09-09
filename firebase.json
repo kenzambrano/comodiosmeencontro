@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/como-dios-me-encontro",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      { 
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
