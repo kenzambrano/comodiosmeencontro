@@ -78,5 +78,4 @@ export class VerseComponent implements OnInit {
     }
     return hash;
   }
-
 }
