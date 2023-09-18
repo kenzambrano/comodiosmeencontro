@@ -1,6 +1,10 @@
 .verse {
     color: rgb(34, 34, 34);
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
 }
 
 .verse .container {
@@ -8,15 +12,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px rgb(34, 34, 34) solid;
+    border: 1px rgba(0, 0, 0, 0.012) solid;
     padding: 1.6rem;
-    border-radius: 1rem
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.27);
 }
 
 .verse .container .title {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
 }
 
 .verse .container .description {
@@ -25,16 +31,15 @@
 
 .verse .container .description,
 .date {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 
 /* Responsive Styles */
 @media screen and (min-width: 768px) {
     .verse {
-        margin: 4.6rem;
+        // margin: 4.6rem;
         color: rgb(34, 34, 34);
-        // border-radius: 1rem;
     }
 
     .verse .container {
@@ -44,7 +49,7 @@
 
 @media screen and (max-width: 768px) {
     .verse {
-        margin: 4.6rem 1rem;
+        // margin: 4.6rem 1rem;
         color: rgb(34, 34, 34);
         border-radius: 1rem;
     }

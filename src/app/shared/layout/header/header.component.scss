@@ -1,46 +1,28 @@
 .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #97cbff;
-    color: white;
-    font-weight: 600;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #97cbff;
+  color: white;
+  font-weight: 600;
+}
 
-  .toolbar img {
-    margin: 0 16px;
-  }
+.toolbar a {
+  margin: 0 0.6rem;
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
-  }
-
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-  .toolbar #twitter-logo:hover,
-  .toolbar #youtube-logo:hover {
-    opacity: 0.8;
-  }
-
+@media (max-width: 768px) {
   .toolbar a {
     margin: 0 0.6rem;
     color: aliceblue;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
-
-  @media (max-width: 768px) {
-    .toolbar a {
-      margin: 0 0.6rem;
-      color: aliceblue;
-      font-size: 1.2rem;
-    }
-  }
+}
