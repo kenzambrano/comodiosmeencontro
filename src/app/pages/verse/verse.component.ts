@@ -13,6 +13,22 @@ export class VerseComponent implements OnInit {
       description: 'El Señor es mi pastor; nada me faltará.',
     },
     {
+      title: 'Salmo 23:2',
+      description: 'En lugares de delicados pastos me hará descansar; Junto a aguas de reposo me pastoreará.',
+    },
+    {
+      title: 'Salmo 23:3',
+      description: 'Confortará mi alma; Me guiará por sendas de justicia por amor de su nombre.',
+    },
+    {
+      title: 'Salmo 23:4',
+      description: 'Aunque ande en valle de sombra de muerte, no temeré mal alguno, porque tú estarás conmigo; Tu vara y tu cayado me infundirán aliento.',
+    },
+    {
+      title: 'Salmo 23:5',
+      description: 'Aderezas mesa delante de mí en presencia de mis angustiadores; Unges mi cabeza con aceite; mi copa está rebosando.',
+    },
+    {
       title: 'Filipenses 4:13',
       description: 'Todo lo puedo en Cristo que me fortalece.'
     },
@@ -51,6 +67,10 @@ export class VerseComponent implements OnInit {
     {
       title: 'Proverbios 3:5-6',
       description: 'Fíate de Jehová de todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.'
+    },
+    {
+      title: 'Apocalipsis 3:20',
+      description: 'He aquí, yo estoy a la puerta y llamo; si alguno oye mi voz y abre la puerta, entraré a él, y cenaré con él, y él conmigo.'
     }
   ];
 
