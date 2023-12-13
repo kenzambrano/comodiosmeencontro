@@ -9,7 +9,7 @@ import { AboutComponent } from './pages/about/about.component';
 const routes: Routes = [
   {
     path: '',
-    component: VerseComponent
+    component: HomeComponent
   },
   {
     path: 'versiculo',
