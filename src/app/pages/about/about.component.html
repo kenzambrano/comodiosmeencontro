@@ -1,1 +1,30 @@
-<p>about works!</p>
+<div class="rosary-container">
+  <div class="header-section">
+    <h1>Santo Rosario</h1>
+    <p class="day-badge">{{ dayName }}</p>
+    <h2 class="mystery-title">{{ mysteryType }}</h2>
+  </div>
+
+  <div class="mysteries-list">
+    <div class="mystery-card" *ngFor="let mystery of todayMystery">
+      <h3>{{ mystery.title }}</h3>
+      <p>{{ mystery.description }}</p>
+    </div>
+  </div>
+
+  <div class="prayer-section">
+    <h3>Oraciones del Rosario</h3>
+    <div class="prayer">
+      <h4>Padre Nuestro</h4>
+      <p>Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad, en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación, y líbranos del mal. Amén.</p>
+    </div>
+    <div class="prayer">
+      <h4>Ave María</h4>
+      <p>Dios te salve, María, llena eres de gracia; el Señor es contigo; bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.</p>
+    </div>
+    <div class="prayer">
+      <h4>Gloria</h4>
+      <p>Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.</p>
+    </div>
+  </div>
+</div>

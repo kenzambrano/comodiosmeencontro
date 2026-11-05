@@ -1,0 +1,151 @@
+.rosary-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #003797 100%);
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+  }
+
+  .day-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .mystery-title {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.mysteries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.mystery-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #002ae5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  h3 {
+    color: #002ae5;
+    margin: 0 0 12px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+.prayer-section {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: #002ae5;
+    margin: 0 0 25px 0;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .prayer {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #002ae5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h4 {
+      color: #002ae5;
+      margin: 0 0 12px 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.8;
+      margin: 0;
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .rosary-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .header-section {
+    padding: 20px;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .mystery-title {
+      font-size: 1.4rem;
+    }
+  }
+
+  .mystery-card {
+    padding: 20px;
+
+    h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .prayer-section {
+    padding: 20px;
+
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -7,12 +7,12 @@ import { VerseComponent } from './pages/verse/verse.component';
 import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: HomeComponent
+  // },
   {
     path: '',
-    component: HomeComponent
-  },
-  {
-    path: 'versiculo',
     component: VerseComponent
   },
   {
@@ -20,7 +20,7 @@ const routes: Routes = [
     component: PrayerComponent
   },
   {
-    path: 'nosotros',
+    path: 'santo-rosario',
     component: AboutComponent
   }
 ];
